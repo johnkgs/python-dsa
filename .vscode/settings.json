@@ -1,17 +1,20 @@
 {
-  "python.defaultInterpreterPath": "/opt/conda/bin/python",
-  "python.terminal.activateEnvironment": true,
-  "files.exclude": {
-    "**/__pycache__": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.formatOnSave": true,
-  "python.formatting.provider": "black",
-  "[python]": {
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  }
+    "python.defaultInterpreterPath": "/opt/conda/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
